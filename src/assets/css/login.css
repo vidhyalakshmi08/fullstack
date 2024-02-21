@@ -1,0 +1,80 @@
+.app {
+  font-family: "Cambria", Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  background-image: url('../images/giftbg.jpg');
+  background-size: cover;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333; /* Adjust the color to your preference */
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  background: #260ead;
+  border: 1px solid #230b9b;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background: #17089c;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-link {
+  margin-top: 15px;
+  text-align: center;
+  color: #333; /* Adjust the color to your preference */
+}
+
+.signup-link a {
+  color: #231ea3;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.signup-link a:hover {
+  color: #31149a;
+}
