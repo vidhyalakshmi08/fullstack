@@ -1,0 +1,95 @@
+.profile-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-title {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .profile-content {
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  }
+  
+  .profile-section {
+    margin-bottom: 30px;
+  }
+  .profile-order-section {
+    padding-left: 40px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .profile-image-container {
+    margin-right: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-details {
+    flex-grow: 1;
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .profile-email,
+  .profile-address {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .profile-button,
+  .order-button {
+    background-color: #2f15d8;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .profile-button:hover,
+  .order-button:hover {
+    background-color: #3014ad;
+  }
+  
+  .order-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .order-number,
+  .order-date,
+  .order-amount,
+  .order-status {
+    margin-bottom: 5px;
+  }
+  
+  .order-amount {
+    font-weight: bold;
+  }
+  

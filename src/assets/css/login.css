@@ -6,12 +6,12 @@
   flex-direction: column;
   gap: 20px;
   height: 100vh;
-  background-image: url('../images/giftbg.jpg');
+  background-image: url('../images/login.avif');
   background-size: cover;
 }
 
 .login-form {
-  background-color: white;
+  background-color: rgb(54,69,79); /* Transparent white */
   padding: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
@@ -20,61 +20,73 @@
 .title {
   font-size: 2rem;
   margin-bottom: 20px;
+  font-weight: bold;
   text-align: center;
-  color: #333; /* Adjust the color to your preference */
+  color: #B68D40; /* Adjust the color to your preference */
 }
 
 .input {
   display: flex;
+  color:#B68D40;
   flex-direction: column;
   gap: 12px;
   margin: 10px;
 }
 
+input[type="email"] {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #B68D40;
+  border-radius: 6px;
+  font-size: 16px;
+}
 input[type="text"],
 input[type="password"] {
   height: 40px;
   width: 100%;
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #D6AD60;
   border-radius: 6px;
   font-size: 16px;
 }
 
 input[type="submit"] {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   cursor: pointer;
   font-size: 18px;
-  background: #260ead;
-  border: 1px solid #230b9b;
+  background: #B68D40;
+  border: 1px solid #B68D40;
   color: #fff;
   padding: 12px 24px;
   border-radius: 6px;
-  transition: background 0.3s ease-in-out;
 }
 
 input[type="submit"]:hover {
-  background: #17089c;
+  background:#D6AD60
 }
 
 .button {
   display: flex;
   justify-content: center;
 }
-
+.input input[type="radio"] {
+  margin-right: 2px;
+  margin-left: 40px;
+}
 .signup-link {
   margin-top: 15px;
   text-align: center;
-  color: #333; /* Adjust the color to your preference */
+  color: #B68D40; /* Adjust the color to your preference */
 }
 
 .signup-link a {
-  color: #231ea3;
+  color: #B68D40;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
 
 .signup-link a:hover {
-  color: #31149a;
+  color:#D6AD60;
 }

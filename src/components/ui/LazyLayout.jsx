@@ -9,7 +9,6 @@ const LazyLayout = ({component: Component,...rest }) => {
   )
 }
 LazyLayout.propTypes={
-    component: PropTypes.elementType.isRequired
+    component: PropTypes.elementType.isRequired,
 }
-
 export default LazyLayout

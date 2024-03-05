@@ -5,12 +5,8 @@ import "../../assets/css/signup.css"
 const SignUp = () => {
   const navigate = useNavigate();
 
-  const onSubmit = (data) => {
-    // Assuming you have signup logic here
-    console.log("Signup data:", data);
-
-    // Assuming signup is successful, navigate to the home page
-    navigate("/home");
+  const onSubmit = e => {
+    navigate("/app-project/user/home");
   };
 
   return (
@@ -34,7 +30,6 @@ const SignUp = () => {
             <label>Password: </label>
             <input type="password" name="password" required/>
           </div>
-          {/* Add more signup fields as needed */}
           <div className="button">
             <button type="submit">Sign Up</button>
           </div>
