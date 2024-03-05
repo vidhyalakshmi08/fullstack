@@ -1,0 +1,47 @@
+/* Sidebar.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0px; /* Sidebar is initially hidden */
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  transition: left 0.3s ease; /* Smooth transition for opening/closing */
+}
+
+.sidebar.open {
+  left: 0; /* Sidebar is visible when open */
+}
+
+.sidebar-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.sidebar-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-content ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar-content ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar-content ul li a:hover {
+  color: #ddd;
+}
