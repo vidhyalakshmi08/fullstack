@@ -1,0 +1,63 @@
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+  }
+  .cart-header {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+    padding: 10px 0; /* Padding for top and bottom */
+    border-bottom: 2px solid #ccc; /* Bottom border */
+}
+  /* Table header styles */
+  thead {
+    background-color: #f2f2f2;
+  }
+  button {
+    background-color:#B68D40;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #D6AD60;
+}
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Alternate row colors */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect */
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Border radius for first and last cells */
+  td:first-child, th:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  td:last-child, th:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
